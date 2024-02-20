@@ -7,6 +7,8 @@ class course{
     string courseName;
 
 public:
-    
+    void printcoursedata(){
+        cout<<courseName<<" "<<courseCode<<endl;
+    }    
 
 };
