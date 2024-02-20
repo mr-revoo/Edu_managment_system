@@ -1,10 +1,12 @@
 #include "main.h"
+#include <vector>
 
 
 class course{
     private:
     string courseCode;
     string courseName;
+    vector<course>courses;
 
 public:
     void printcoursedata(){
